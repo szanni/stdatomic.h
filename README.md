@@ -103,3 +103,8 @@ Status
 - [ ] atomic_intmax_t
 - [ ] atomic_uintmax_t
 
+License
+-------
+
+BSD 2-clause license, see LICENSE for more details.
+
