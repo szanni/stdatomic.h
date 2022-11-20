@@ -8,17 +8,17 @@ Status
 
 ### Keyword
 
-- [ ] _Atomic
+- [x] _Atomic
 
 ### Types
 
-- [ ] memory_order
-    - [ ] memory_order_relaxed
-    - [ ] memory_order_consume
-    - [ ] memory_order_acquire
-    - [ ] memory_order_release
-    - [ ] memory_order_acq_rel
-    - [ ] memory_order_seq_cst
+- [x] memory_order
+    - [x] memory_order_relaxed
+    - [x] memory_order_consume
+    - [x] memory_order_acquire
+    - [x] memory_order_release
+    - [x] memory_order_acq_rel
+    - [x] memory_order_seq_cst
 - [ ] atomic_flag
 
 ### Macros
@@ -40,14 +40,14 @@ Status
 
 ### Functions
 
-- [ ] atomic_init
+- [x] atomic_init
 - [ ] atomic_thread_fence
 - [ ] atomic_signal_fence
 - [ ] atomic_is_lock_free
-- [ ] atomic_store
-- [ ] atomic_store_explicit
-- [ ] atomic_load
-- [ ] atomic_load_explicit
+- [x] atomic_store
+- [x] atomic_store_explicit
+- [x] atomic_load
+- [x] atomic_load_explicit
 - [ ] atomic_exchange
 - [ ] atomic_exchange_explicit
 - [ ] atomic_compare_exchange_strong
@@ -108,6 +108,11 @@ Status
 - [ ] atomic_ptrdiff_t
 - [ ] atomic_intmax_t
 - [ ] atomic_uintmax_t
+
+Limitations
+-----------
+
+Currently all operations are performed as `memory_order_seq_cst`.
 
 License
 -------
